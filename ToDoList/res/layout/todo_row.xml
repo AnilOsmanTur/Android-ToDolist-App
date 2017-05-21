@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="@dimen/medium_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/todoTitle"
+        android:text="@string/todo"
+        android:textSize="@dimen/medium_text"
+        android:layout_margin="@dimen/medium_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/todoDetail"
+        android:text="@string/todo"
+        android:layout_below="@+id/todoTitle"
+        android:layout_marginLeft="@dimen/medium_margin"
+        android:textSize="@dimen/small_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/todoDate"
+        android:text="Created: 10:00 PM"
+        android:textSize="@dimen/small_text"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
